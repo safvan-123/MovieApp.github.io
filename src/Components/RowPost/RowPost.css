@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.row {
+  color: white;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card {
+  width: 12rem;
+  height: 18rem;
+  margin: 20px 6px;
+}
+.img-fluid {
+  height: 12rem;
+}
+@media only screen and (max-width: 830px) {
+  .card {
+    width: 10rem;
+    height: 14.7rem;
+    /* margin: 10px 4px; */
+    position: relative;
+    left: 40px;
+  }
+  .img-fluid {
+    height: 10rem;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .card {
+    position: relative;
+    left: 60px;
+    width: 10rem;
+    height: 15rem;
+    margin: 10px 4px;
+  }
+  .img-fluid {
+    height: 10.5rem;
+  }
+  .fern {
+    position: relative;
+    left: -10px;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .card {
+    position: relative;
+    left: 30px;
+    width: 10rem;
+    height: 15rem;
+    margin: 10px 4px;
+  }
+  .img-fluid {
+    height: 10.5rem;
+  }
+  .fern {
+    position: relative;
+    left: -10px;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 356px) {
+  .fern {
+    font-size: 23px;
+    position: relative;
+    left: -10px;
+  }
+}
